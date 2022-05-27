@@ -1,0 +1,94 @@
+#logo{
+    
+    margin-left: auto;
+}
+.carousel-item{
+    height:100vh;
+    min-height: 300px;
+    background-repeat: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before{
+
+    content: "";
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:black;
+    opacity: 0.7;
+}
+
+
+.carousel-caption{
+    bottom: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    font-weight: 500px;
+}
+.carousel-caption p{
+    font-size: 20px;
+    top:2rem
+}
+#more {
+    display: none;
+}
+#more2 {
+    display: none;
+}
+#more3 {
+    display: none;
+}
+#para {
+    display: none;
+}
+#proceed{
+    display:none ;
+}
+#andalso{
+    display:none ;
+}
+.btn{
+    align-items: center;
+}
+.social{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    margin-top: 0px;
+    margin : 0px 0px;
+    padding-left: 30px;
+}
+
+ .social i{
+    color: blue;
+    font-size: 30px;
+    padding:0px 20px;
+    margin-top: 10px;
+
+}
+ .social i:hover{
+    color:cyan;
+    
+    }
+    .social #copyright{
+        color:blue;
+    }
+    @media screen and (max-width:768px){
+         .social{
+            text-align:center;
+        }
+        .social #copyright{
+            text-align: center;
+        }
+    }
+    h5{
+        text-transform: uppercase;
+    }
